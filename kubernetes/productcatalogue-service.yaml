@@ -32,7 +32,7 @@ spec:
       containers:
       - name: productcatalogue
         #image: praveensingam1994/productcatalogue:latest
-        image: mani-rama/productcatalogue:latest
+        image: mani2017/productcatalogue:latest
         ports:
         - containerPort: 8020
         livenessProbe:
