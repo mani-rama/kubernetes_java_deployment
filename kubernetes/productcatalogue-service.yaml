@@ -31,7 +31,8 @@ spec:
     spec:
       containers:
       - name: productcatalogue
-        image: praveensingam1994/productcatalogue:latest
+        #image: praveensingam1994/productcatalogue:latest
+        image: mani-rama/productcatalogue:latest
         ports:
         - containerPort: 8020
         livenessProbe:
